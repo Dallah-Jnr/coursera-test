@@ -1,1 +1,175 @@
-nothing
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 25px;
+}
+.header {
+    color:  rgb(114, 110, 110);
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        display: flex;
+        padding-left: 10px;
+        column-gap: 20px;
+    }
+    .row {
+        border: 2px solid black;
+        padding: 0 14px;
+        background-color: gray;
+        
+    }
+    
+    .top > p {
+        border: 2px solid black;
+        width: 100px;
+        height: 25px;
+        justify-self: center;
+        font-size: large;
+        position: relative;
+    }
+    .p1 {
+        background-color: pink;
+        position: fixed;
+        top: -20px;
+        left: 306px;
+        text-align: center;
+        margin-bottom: 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .p2 {
+        background-color: rgb(117, 24, 24);
+        color: white;
+        position: fixed;
+        top: -20px;
+        left: 306px;
+        text-align: center;
+        margin-bottom: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .p3 {
+        background-color:rgb(223, 153, 24);
+        position: fixed;
+        top: -20px;
+        left: 306px;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    #lorem {
+        margin-top: 0;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .row {
+        border: 2px solid black;
+        padding: 0 14px;
+        background-color: red;
+    }
+    .container-fluid {
+        display:grid;
+        grid-gap: 20px;
+        padding-left: 10px;
+    }
+    .top > p {
+        border: 2px solid black;
+        width: 100px;
+        height: 25px;
+        justify-self: center;
+        font-size: large;
+        position: relative;
+    }
+    .p1 {
+        background-color: pink;
+        position: fixed;
+        top: -20px;
+        left: 418px;
+        text-align: center;
+        margin-bottom: 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .p2 {
+        background-color: rgb(117, 24, 24);
+        color: white;
+        clear: left;
+        position: fixed;
+        top: -20px;
+        left: 418px;
+        text-align: center;
+        margin-bottom: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .p3 {
+        background-color:rgb(223, 153, 24);
+        position: fixed;
+        top: -20px;
+        left: 418px;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    #lorem {
+        margin-top: 0;
+    }
+}
+@media (max-width: 767px) {
+    .row {
+        border: 2px solid black;
+        padding: 0 14px;
+        background-color: blueviolet;
+    }
+    .container-fluid {
+        display:grid;
+        grid-gap: 20px;
+        padding-left: 10px;
+    }
+    .top > p {
+        border: 2px solid black;
+        width: 100px;
+        height: 25px;
+        justify-self: center;
+        font-size: large;
+        position: relative;
+    }
+    .p1 {
+        background-color: pink;
+        position:static;
+        top: -20px;
+        left: 505px;
+        text-align: center;
+        margin-bottom: 0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .p2 {
+        background-color: rgb(117, 24, 24);
+        color: white;
+        position: fixed;
+        top: -20px;
+        left: 505px;
+        text-align: center;
+        margin-bottom: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .p3 {
+        background-color:rgb(223, 153, 24);
+        position: fixed;
+        top: -20px;
+        left: 505px;
+        text-align: center;
+        margin-bottom: 0;
+        font-weight: bolder;
+    }
+    #lorem {
+        margin-top: 0;
+    }
+}
